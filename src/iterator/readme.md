@@ -3,7 +3,7 @@
 迭代器模式用于在数据集合中按照顺序遍历集合。
 
 实例程序作用将书Book放置到书架BookShelf中，并将书的名字按顺序显示出来。
-![iterator](.\asset\iterator.jpg)
+![iterator](src\asset\iterator.jpg)
 
 ## 角色
 * **Iterator**（迭代器）：负责定义但顺序逐个遍历元素的接口。
