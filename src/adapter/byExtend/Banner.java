@@ -1,4 +1,4 @@
-package adapter.sample1;
+package adapter.byExtend;
 
 public class Banner {
     private String string;

@@ -1,4 +1,4 @@
-package adapter.sample1;
+package adapter.byExtend;
 
 public interface Print {
     public abstract void printWeak();

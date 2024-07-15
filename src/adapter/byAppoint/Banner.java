@@ -1,3 +1,5 @@
+package adapter.byAppoint;
+
 public class Banner {
     private String string;
     public Banner(String string) {

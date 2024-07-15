@@ -1,3 +1,8 @@
+package iterator;
+
+/**
+ * 遍历书架的类
+ */
 public class BookShelfIterator implements Iterator {
     private BookShelf bookShelf;
     private int index;

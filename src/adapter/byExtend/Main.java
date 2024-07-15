@@ -1,4 +1,4 @@
-package adapter.sample1;
+package adapter.byExtend;
 
 /**
  * Main中使用Print接口进行编程，即调用Print.printWeak和Print.printStrong方法。
