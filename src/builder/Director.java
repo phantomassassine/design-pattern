@@ -1,8 +1,18 @@
+package builder;
+
+/**
+ * 使用Builder类中声明的方法编写文档。
+ * 实际上传递给Director类构造函数的是Builder类的子类实例，子类决定了编写文档的形式。
+ */
 public class Director {
     private Builder builder;
     public Director(Builder builder) {              // 因为接收的参数是Builder类的子类
         this.builder = builder;                     // 所以可以将其保存在builder字段中
     }
+
+    /**
+     * 内容
+     */
     public void construct() {                       // 编写文档
         builder.makeTitle("Greeting");              // 标题
         builder.makeString("从早上至下午");         // 字符串

@@ -1,5 +1,10 @@
-import framework.*;
+package prototype;
 
+import prototype.framework.*;
+
+/**
+ *
+ */
 public class MessageBox implements Product {
     private char decochar;
     public MessageBox(char decochar) {

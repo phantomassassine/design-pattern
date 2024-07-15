@@ -1,4 +1,6 @@
-import framework.*;
+package prototype;
+
+import prototype.framework.*;
 
 public class UnderlinePen implements Product {
     private char ulchar;

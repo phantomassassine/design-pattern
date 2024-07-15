@@ -1,4 +1,7 @@
-import framework.*;
+package prototype;
+
+
+import prototype.framework.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -7,6 +10,7 @@ public class Main {
         UnderlinePen upen = new UnderlinePen('~');
         MessageBox mbox = new MessageBox('*');
         MessageBox sbox = new MessageBox('/');
+
         manager.register("strong message", upen);
         manager.register("warning box", mbox);
         manager.register("slash box", sbox);

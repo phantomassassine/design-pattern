@@ -1,3 +1,5 @@
+package builder;
+
 import java.io.*;
 
 public class HTMLBuilder extends Builder {
