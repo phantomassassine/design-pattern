@@ -3,6 +3,7 @@ package builder;
 /**
  * 使用Builder类中声明的方法编写文档。
  * 实际上传递给Director类构造函数的是Builder类的子类实例，子类决定了编写文档的形式。
+ * Director仅使用Builder提供的方法，但并不关心实际编写的文档到底是TextBuilder还是HTMLBuilder
  */
 public class Director {
     private Builder builder;
@@ -11,7 +12,8 @@ public class Director {
     }
 
     /**
-     * 内容
+     * 编写内容
+     * 方法都是Builder类中声明的方法
      */
     public void construct() {                       // 编写文档
         builder.makeTitle("Greeting");              // 标题

@@ -1,7 +1,7 @@
 package builder;
 
 /**
- * 声明一个便携文档的方法的抽象类
+ * 声明一个编写文档的方法的抽象类
  */
 
 public abstract class Builder {
