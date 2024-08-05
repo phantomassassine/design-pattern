@@ -1,6 +1,6 @@
 # Iterator模式——一个一个遍历
 
-<img src="asset/1.jpg"  width=300  alt="sketch"/>
+<img src="asset/sketch.jpg"  width=300  alt="sketch"/>
 
 迭代器模式提供一种方法顺序访问一个聚合对象中的各个元素，而又不暴露其内部的表示。
 
